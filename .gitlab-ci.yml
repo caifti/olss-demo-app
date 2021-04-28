@@ -1,8 +1,6 @@
 stages:
     - build
     - docker-build
-    - publish-reports
-
 cache:
   paths:
     - .m2/repository
