@@ -10,7 +10,7 @@
   </parent>
   <groupId>it.infn</groupId>
   <artifactId>olss-demo-app</artifactId>
-  <version>0.0.4</version>
+  <version>0.0.5</version>
   <name>olss-demo-app</name>
   <description>Demo project</description>
 
