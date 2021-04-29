@@ -131,7 +131,12 @@ Deploy the olss-demo-app with probes:
 
 ```
 kubectl apply -f olss-app.deploy.yaml
+
 ```
+
+Scale up the deployment again. This time you will not see errors, since the
+probes configure the request routing only when the replica is in good shape to
+serve it.
 
 # Install prometheus on your cluster 
 
